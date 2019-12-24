@@ -1,6 +1,9 @@
 name: envkey-action
 author: rojo@robertjordan.dev
 description: GitHub Action to configure workflow with environment from EnvKey (https://www.envkey.com/)
+branding:
+  icon: 'lock'  
+  color: 'red'
 runs:
   using: 'docker'
   image: 'Dockerfile'
