@@ -1,0 +1,8 @@
+name: envkey-action
+author: rojo@robertjordan.dev
+description: GitHub Action to configure workflow with environment from EnvKey (https://www.envkey.com/)
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - '${{ inputs.command }}'
