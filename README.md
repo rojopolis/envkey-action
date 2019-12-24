@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Configure Environment
       env:
-        ENVKEY: ${{ secrests.ENVKEY }}
+        ENVKEY: ${{ secrets.ENVKEY }}
       uses: rojopolis/envkey-action@master
     - name: Show environment
       run: env
