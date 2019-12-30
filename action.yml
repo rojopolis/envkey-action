@@ -6,6 +6,6 @@ branding:
   color: 'red'
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://rojopolis/envkey-action:latest'
   args:
     - '${{ inputs.command }}'
